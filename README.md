@@ -7,11 +7,11 @@ This web application will be a tool to help the rescue build their “library of
 The rescue would be able to all the information kept on the cats to allow potential adopters to search for their perfect pet. Potential adopters would be able to search using the following criteria color, breed, age, sex, or demeanor.  Once adopters find a cat that they are interested in, they would be able to complete an application capturing their information and the animal of interest. Their information would be provided to the rescue to complete their screening process.  
 
 
-## ERD 
+### ERD 
 ------
 ![ERD Design](https://github.com/AthertonCarl/Project/blob/master/Project%20ERD.png)
 
-## WireFrames
+### WireFrames
 ------
 ![Admin Logon](https://github.com/AthertonCarl/Project/blob/master/Admin%20Logon.png)
 ![Admin Input](https://github.com/AthertonCarl/Project/blob/master/Admin%20Input.png)
