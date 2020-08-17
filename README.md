@@ -11,8 +11,23 @@ The rescue would be able to all the information kept on the cats to allow potent
 ------
 ![ERD Design](https://github.com/AthertonCarl/Project/blob/master/Project%20ERD.png)
 
-### WireFrames
+### WIREFRAMES
 ------
 ![Admin Logon](https://github.com/AthertonCarl/Project/blob/master/Admin%20Logon.png)
 ![Admin Input](https://github.com/AthertonCarl/Project/blob/master/Admin%20Input.png)
 ![Adoption Display](https://github.com/AthertonCarl/Project/blob/master/Adoption%20Display.png)
+
+### USER STORIES
+------
+
+### USE-CASES
+------
+
+### USE-CASE DIAGRAM
+------
+
+### REQUIREMENTS
+------
+
+|Number|Requirement|
+-------------------
