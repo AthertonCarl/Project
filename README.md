@@ -37,6 +37,21 @@ So that I can see all possible animals available for adoption.
 ------
 ### USE-CASES
 
+Given  
+When  
+Then  
+
+Given  
+When  
+Then  
+
+Given  
+When  
+Then  
+
+Given  
+When  
+Then
 
 ------
 ### USE-CASE DIAGRAM
@@ -48,3 +63,31 @@ So that I can see all possible animals available for adoption.
 
 |Number|Requirement|
 |------|-----------|
+|1.0|     |
+|2.0|     |
+|3.0|     |
+|4.0|     |
+|5.0|     |
+|6.0|     |
+|7.0|     |
+|8.0|     |
+|9.0|     |
+|10.0|     |
+
+-------
+### Test Table
+
+|Current Status|Test ID|Requirement ID|Test Procedure|
+|--------------|-------|--------------|--------------|
+|Not Tested|1|1.0|     |     |
+|Not Tested|2|2.0|     |     |
+|Not Tested|3|3.0|     |     |
+|Not Tested|4|4.0|     |     |
+|Not Tested|5|5.0|     |     |
+|Not Tested|6|6.0|     |     |
+|Not Tested|7|7.0|     |     |
+|Not Tested|8|8.0|     |     |
+|Not Tested|9|9.0|     |     |
+|Not Tested|10|10.0|     |     |
+
+------
