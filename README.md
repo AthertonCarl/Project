@@ -41,7 +41,7 @@ So that I can see all possible animals available for adoption.
 ------
 ### USE-CASE DIAGRAM
 
-![USE-CASE DIAGRAM](https://github.com/AthertonCarl/Project/blob/master/   )
+![USE-CASE DIAGRAM](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/Your%20Pet%20Portfolio.pdf)
 
 ------
 ### REQUIREMENTS
