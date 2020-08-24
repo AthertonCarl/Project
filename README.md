@@ -22,7 +22,9 @@ The rescue would be able to all the information kept on the cats to allow potent
 ------
 ### USER STORIES
 
-As an Administrator.   I need to login to the application.   So that I can update and add new animals.
+As an Administrator. 
+I need to login to the application. 
+So that I can update and add new animals.
 
 ------
 ### USE-CASES
