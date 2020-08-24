@@ -26,6 +26,14 @@ As an Administrator.
 I need to login to the application.  
 So that I can update and add new animals.
 
+As an Employee or Volunteer.  
+I need to be able to review potential adopter requests.  
+So that I can connect animals a forever home.
+
+As a potential adopter.  
+I need to be able to search for animals availabe for adoption.  
+So that I can see all possible animals available for adoption.
+
 ------
 ### USE-CASES
 
@@ -33,6 +41,7 @@ So that I can update and add new animals.
 ------
 ### USE-CASE DIAGRAM
 
+![USE-CASE DIAGRAM](https://github.com/AthertonCarl/Project/blob/master/   )
 
 ------
 ### REQUIREMENTS
