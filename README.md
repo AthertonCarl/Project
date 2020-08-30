@@ -93,6 +93,6 @@ Then
 ------
 ### Models
 
-![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/
-![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/
-![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/
+![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/log_in.png)
+![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/admin_display.png)
+![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/adoptjon_display.png)
