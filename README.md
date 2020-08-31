@@ -37,21 +37,21 @@ So that I can see all possible animals available for adoption.
 ------
 ### USE-CASES
 
-Given  
-When  
-Then  
+Given an administrator or user needs to update or add records  
+When updates or records need to be added  
+Then should be able to log on to update or add records.
 
-Given  
-When  
-Then  
+Given an administrator needs to create log on accounts to assist in managing records  
+When a new account is required  
+Then a new account should be created and notify user when available.
 
-Given  
-When  
-Then  
+Given a customer or potential client is looking for animals available for adoption  
+When search criteria is entered in about the animal type they are looking for  
+Then should return animals meeting search criteria that are available for adoption.  
 
-Given  
-When  
-Then
+Given an administrator or user see an adoptoion aplication has been completed  
+When a customer or potential client have submitted an adoption applicaton  
+Then should be able to review application and respond to customer or potential client.
 
 ------
 ### USE-CASE DIAGRAM
