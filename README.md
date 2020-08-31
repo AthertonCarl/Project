@@ -2,14 +2,14 @@
 ### YOUR PET PORTFOLIO
 ------
 ### TABLE OF CONTENTS
-[DESCEIPTION](Link)
-[ERD](Link)
-[WIREFRAMES](Link)
-[USER STORIES](Link)
-[USE-CASES](Link)
-[USE-CASE DIAGRAM](Link)
-[REQUIREMENTS](Link)
-[TEST TABLE](Link)
+[DESCEIPTION](Link)  
+[ERD](Link)  
+[WIREFRAMES](Link)  
+[USER STORIES](Link)  
+[USE-CASES](Link)  
+[USE-CASE DIAGRAM](Link)  
+[REQUIREMENTS](Link)  
+[TEST TABLE](Link)  
 [MODELS](Link)
 
 ------
