@@ -92,7 +92,8 @@ Then should be able to review application and respond to customer or potential c
 |7.0|     |
 |8.0|     |
 |9.0|     |
-|10.0|     |  
+|10.0|     | 
+
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#table-of-contents)
 
 -------
@@ -110,6 +111,7 @@ Then should be able to review application and respond to customer or potential c
 |Not Tested|8|8.0|     |     |
 |Not Tested|9|9.0|     |     |
 |Not Tested|10|10.0|     |     |  
+
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#table-of-contents)
 
 ------
@@ -118,4 +120,5 @@ Then should be able to review application and respond to customer or potential c
 ![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/log_in.png)
 ![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/admin_display.png)
 ![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/adoptjon_display.png)  
+
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#table-of-contents)
