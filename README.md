@@ -88,16 +88,16 @@ Then should be able to review application and respond to customer or potential c
 
 |Number|Requirement|
 |------|-----------|
-|1.0|     |
-|2.0|     |
-|3.0|     |
-|4.0|     |
-|5.0|     |
-|6.0|     |
-|7.0|     |
-|8.0|     |
-|9.0|     |
-|10.0|     | 
+|1.0|The application shall allow administrators to create user accounts for employees and volunteers.|
+|2.0|The application shall have a logon screen that allows administrators and users to enter in a username and password.|
+|3.0|The application shall have a submit button that changes color when clicked to logon.|
+|4.0|The application shall allow administrators and employees to add and update records.|
+|5.0|The application shall allow clients to view animals available for adoption.|
+|6.0|The application shall have search criteria allowing clients to search for animals avialable for adoption.|
+|7.0|The application shall allow clients to fill out adoption applications and submit them to the rescue.|
+|8.0|The application shall allow the administrators and employees to view applications submitted to the rescue.|
+|9.0|The application shall auto generate an email thanking the clients for their interest in adopting and that they will be contated once their application has been reviewed.|
+|10.0|The application shall notify administrators and employees when a new adoption application has been submitted.| 
 
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#table-of-contents)
 
