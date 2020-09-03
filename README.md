@@ -27,7 +27,7 @@ The rescue would be able to all the information kept on the cats to allow potent
 
 ![ERD Design](https://github.com/AthertonCarl/Project/blob/master/Project%20ERD.png)  
 
-[Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#table-of-contents)
+[Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#your-pet-portfolio)
 
 ------
 ### WIREFRAMES
@@ -104,7 +104,7 @@ Then should be able to review application and respond to customer or potential c
 -------
 ### TEST TABLE
 
-|Test   ID|Requirement   ID|Test Procedure |Test   Method|Current  Status|
+|Test   ID|Req   ID|Test Procedure |Test   Method|Current  Status|
 |---|---|---|---|---|
 |T1|1.0|Administrators should be able to log in to their account select the create new account link and enter in new user information|Test|Not Tested|
 |T2|2.0|Check for logon screen and if it takes username and password information.|Inspection|Not Tested|
