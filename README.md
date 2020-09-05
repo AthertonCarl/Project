@@ -87,7 +87,7 @@ Then should be able to review application and respond to customer or potential c
 ### REQUIREMENTS
 
 |ID|Requirement|
-|---|---|
+|:---:|---|
 |1.0|The application shall allow administrators to create user accounts for employees and volunteers.|
 |2.0|The application shall have a logon screen that allows administrators and users to enter in a username and password.|
 |3.0|The application shall have a submit button that changes color when clicked to logon.|
@@ -105,7 +105,7 @@ Then should be able to review application and respond to customer or potential c
 ### TEST TABLE
 
 |Test   ID|Req   ID|Test Procedure |Test   Method|Current  Status|
-|---|---|---|---|---|
+|:---:|:---:|---|:---:|:---:|
 |T1|1.0|Administrators should be able to log in to their account select the create new account link and enter in new user information|Test|Not Tested|
 |T2|2.0|Check for logon screen and if it takes username and password information.|Inspection|Not Tested|
 |T3|3.0|Check the submit button to see that it changes color when clicked.|Inspection|Not Tested|
