@@ -86,36 +86,32 @@ Then should be able to review application and respond to customer or potential c
 ------
 ### REQUIREMENTS
 
-|ID|Requirement|
-|:---:|---|
-|1.0|The application shall allow administrators to create user accounts for employees and volunteers.|
-|2.0|The application shall have a logon screen that allows administrators and users to enter in a username and password.|
-|3.0|The application shall have a submit button that changes color when clicked to logon.|
-|4.0|The application shall allow administrators and employees to add and update records.|
-|5.0|The application shall allow clients to view animals available for adoption.|
-|6.0|The application shall have search criteria allowing clients to search for animals avialable for adoption.|
-|7.0|The application shall allow clients to fill out adoption applications and submit them to the rescue.|
-|8.0|The application shall allow the administrators and employees to view applications submitted to the rescue.|
-|9.0|The application shall auto generate an email thanking the clients for their interest in adopting and that they will be contated once their application has been reviewed.|
-|10.0|The application shall notify administrators and employees when a new adoption application has been submitted.| 
+|ID|Requirement|Test   Method|
+|:---:|---|:---:|
+|1.0|The application shall have a logon screen that allows administrators and users to enter in a username and password.|Inspection|
+|1.1|The application shall have a submit button that changes color when clicked to logon.|Inspection|
+|1.2|The application shall allow administrators to create user accounts for employees and volunteers.|Test|
+|2.0|The application shall allow administrators and employees to add and update records.|Inspection|
+|3.0|The application shall have search criteria allowing clients to search for animals avialable for adoption.|Inspection|
+|3.1|The application shall allow clients to view animals available for adoption.|Inspection|
+|3.2|The application shall allow clients to fill out adoption applications and submit them to the rescue.|Inspection|
+|3.3|The application shall auto generate an email thanking the clients for their interest in adopting and that they will be contated once their application has been reviewed.|Test|
+|4.0|The application shall notify administrators and employees when a new adoption application has been submitted.|Test| 
+|4.1|The application shall allow the administrators and employees to view applications submitted to the rescue.|Test|
 
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#your-pet-portfolio)
 
 -------
 ### TEST TABLE
 
-|Test   ID|Req   ID|Test Procedure |Test   Method|Current  Status|
-|:---:|:---:|---|:---:|:---:|
-|T1|1.0|Administrators should be able to log in to their account select the create new account link and enter in new user information|Test|Not Tested|
-|T2|2.0|Check for logon screen and if it takes username and password information.|Inspection|Not Tested|
-|T3|3.0|Check the submit button to see that it changes color when clicked.|Inspection|Not Tested|
-|T4|4.0|Check to see that animal information is able to be updated or new new animals are able to be added.|Inspection|Not Tested|
-|T5|5.0|As a client animals that are avialable for adoption should be able to be viewed.|Inspection|Not Tested|
-|T6|6.0|A client should be able to enter search criteria and view the results of their search.|Inspection|Not Tested|
-|T7|7.0|A client should be able to fill out and submit an adoption application to the rescue.|Inspection|Not Tested|
-|T8|8.0|When applications are submitted to the rescue they should be viewable by employees for review|Test|Not Tested|
-|T9|9.0|When a client submits an adoption application it should generate an auto response to the clients email address.|Test|Not Tested|
-|T10|10.0|When a client submits an adoption applicaton it should notify employees that an adoption application is ready to be reviewed.|Test|Not Tested|  
+|Test   ID|Req   ID|Test Procedure |Current  Status|
+|:---:|:---:|---|:---:|
+|T1|1.0, 1.1, 1.2|Check for logon screen and if it takes username and password information and the submit button should change color when clicked. Administrators should be able to log in to their account select the create new account link and enter in new user information|Not Tested|
+|T2|2.0|Check to see that animal information is able to be updated or new new animals are able to be added.|Not Tested|
+|T3|3.0, 3.1|A client should be able to enter search criteria and view the results of their search.|Not Tested|
+|T4|3.2|A client should be able to fill out and submit an adoption application to the rescue.|Not Tested|
+|T5|3.3, 4.0, 4.1|When a client submits an adoption application it should generate an auto response to the clients email address and notify employees an adoption has been submitted to be reviewed.|Not Tested|
+ 
 
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#your-pet-portfolio)
 
