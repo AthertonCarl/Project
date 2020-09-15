@@ -10,7 +10,7 @@
 [USE-CASE DIAGRAM](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#use-case-diagram)  
 [REQUIREMENTS](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#requirements)  
 [TEST TABLE](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#test-table)  
-[MODELS](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#models)
+[Prototypes](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#prototype)
 
 ------
 ### DESCRIPTION
