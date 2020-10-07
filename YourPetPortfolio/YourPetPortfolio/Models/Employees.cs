@@ -11,5 +11,10 @@ namespace YourPetPortfolio.Models
         public string Position { get; set; }
         public int? Age { get; set; }
         public DateTime? StartDate { get; set; }
+        public int? VolunteerId { get; set; }
+        public int? AnimalId { get; set; }
+
+        public virtual Animals Animal { get; set; }
+        public virtual Volunteers Volunteer { get; set; }
     }
 }

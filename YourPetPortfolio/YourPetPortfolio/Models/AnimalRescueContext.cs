@@ -23,6 +23,7 @@ namespace YourPetPortfolio.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
+
                 optionsBuilder.UseSqlServer("Server=DESKTOP-BDMLIR6;Database=AnimalRescue;Trusted_Connection=True;");
             }
         }
@@ -32,7 +33,7 @@ namespace YourPetPortfolio.Models
             modelBuilder.Entity<Animals>(entity =>
             {
                 entity.HasKey(e => e.AnimalId)
-                    .HasName("PK__Animals__A21A7307D15688C1");
+                    .HasName("PK__Animals__A21A7307B78DEB17");
 
                 entity.Property(e => e.AnimalBreed).HasMaxLength(20);
 
@@ -44,21 +45,7 @@ namespace YourPetPortfolio.Models
             modelBuilder.Entity<Employees>(entity =>
             {
                 entity.HasKey(e => e.EmployeeId)
-                    .HasName("PK__Employee__7AD04F11A77205D7");
-
-                entity.Property(e => e.FirstName).HasMaxLength(30);
-
-                entity.Property(e => e.LastName).HasMaxLength(30);
-
-                entity.Property(e => e.Position).HasMaxLength(30);
-
-                entity.Property(e => e.StartDate).HasColumnType("date");
-            });
-
-            modelBuilder.Entity<Volunteers>(entity =>
-            {
-                entity.HasKey(e => e.VolunteerId)
-                    .HasName("PK__Voluntee__716F6F2CFE154C3D");
+                    .HasName("PK__Employee__7AD04F11A6431903");
 
                 entity.Property(e => e.FirstName).HasMaxLength(30);
 
@@ -67,6 +54,35 @@ namespace YourPetPortfolio.Models
                 entity.Property(e => e.Position).HasMaxLength(30);
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
+
+                entity.HasOne(d => d.Animal)
+                    .WithMany(p => p.Employees)
+                    .HasForeignKey(d => d.AnimalId)
+                    .HasConstraintName("FK__Employees__Anima__49C3F6B7");
+
+                entity.HasOne(d => d.Volunteer)
+                    .WithMany(p => p.Employees)
+                    .HasForeignKey(d => d.VolunteerId)
+                    .HasConstraintName("FK__Employees__Volun__48CFD27E");
+            });
+
+            modelBuilder.Entity<Volunteers>(entity =>
+            {
+                entity.HasKey(e => e.VolunteerId)
+                    .HasName("PK__Voluntee__716F6F2C7FB85DFC");
+
+                entity.Property(e => e.FirstName).HasMaxLength(30);
+
+                entity.Property(e => e.LastName).HasMaxLength(30);
+
+                entity.Property(e => e.Position).HasMaxLength(30);
+
+                entity.Property(e => e.StartDate).HasColumnType("datetime");
+
+                entity.HasOne(d => d.Animal)
+                    .WithMany(p => p.Volunteers)
+                    .HasForeignKey(d => d.AnimalId)
+                    .HasConstraintName("FK__Volunteer__Anima__45F365D3");
             });
 
             OnModelCreatingPartial(modelBuilder);
