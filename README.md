@@ -119,15 +119,15 @@ Then should be able to review application and respond to customer or potential c
 ------
 ### Test Readiness Review
 
-# What percent of requirements are (currently) covered by test cases?
+#### What percent of requirements are (currently) covered by test cases?
 
 All requirements are covered with test cases
 
-# What percent of test cases are currently passing?
+#### What percent of test cases are currently passing?
 
 20% of the test cases are passing
 
-# What level of Validation could be expected after Verification?
+#### What level of Validation could be expected after Verification?
 
 The validation will show that there is still a great amount of work to yet be completed before a good working product will be ready.
 
