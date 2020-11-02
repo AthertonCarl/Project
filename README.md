@@ -9,7 +9,9 @@
 [USE-CASES](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#use-cases)  
 [USE-CASE DIAGRAM](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#use-case-diagram)  
 [REQUIREMENTS](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#requirements)  
-[TEST TABLE](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#test-table)  
+[TEST TABLE](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#test-table)
+[TEST READINESS REVIEW](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#test-readiness-review)
+
 [PROTOTYPES](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#prototype)
 
 ------
@@ -124,3 +126,12 @@ Then should be able to review application and respond to customer or potential c
 ![Your Pet Portfolio](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/Prototype2020-09-01/AdoptionDisplayProtoType.png)  
 
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#your-pet-portfolio)
+
+------
+### Test Readiness Review
+
+##Q1
+
+##Q2
+
+##Q3
