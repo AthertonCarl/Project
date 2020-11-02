@@ -108,7 +108,7 @@ Then should be able to review application and respond to customer or potential c
 |Test   ID|Req   ID|Test Procedure |Current  Status|Date|
 |:---:|:---:|---|:---:|:---:|
 |T1|1.0, 1.1, 1.2|Check for logon screen and if it takes username and password information and the submit button should change color when clicked. Administrators should be able to log in to their account select the create new account link and enter in new user information|Not Tested|
-|T2|2.0|Check to see that animal information is able to be updated or new new animals are able to be added.|OCT 22,2020|
+|T2|2.0|Check to see that animal information is able to be updated or new new animals are able to be added.|Testes|10/22/2020|
 |T3|3.0, 3.1|A client should be able to enter search criteria and view the results of their search.|Not Tested|
 |T4|3.2|A client should be able to fill out and submit an adoption application to the rescue.|Not Tested|
 |T5|3.3, 4.0, 4.1|When a client submits an adoption application it should generate an auto response to the clients email address and notify employees an adoption has been submitted to be reviewed.|Not Tested|
@@ -119,13 +119,16 @@ Then should be able to review application and respond to customer or potential c
 ------
 ### Test Readiness Review
 
-##What percent of requirements are (currently) covered by test cases?
+## What percent of requirements are (currently) covered by test cases?
+---
 All requirements are covered with test cases
 
-##What percent of test cases are currently passing?
+## What percent of test cases are currently passing?
+---
 20% of the test cases are passing
 
-##What level of Validation could be expected after Verification?
+## What level of Validation could be expected after Verification?
+---
 The validation will show that there is still a great amount of work to yet be completed before a good working product will be ready.
 
 [Return To Top](https://github.com/AthertonCarl/YourPetPortfolio/blob/master/README.md#your-pet-portfolio)
