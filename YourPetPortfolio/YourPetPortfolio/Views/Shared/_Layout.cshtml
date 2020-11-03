@@ -8,7 +8,34 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <header>
+        
+        <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+            
+            <div class="container">
+                <img src="/img/PetPortfolioLogo(B&W).png" class="img-fluid w-25 float-md-left w-50 float-sm-none" alt="Responsive image" />
+                <h1 class="display-1">Your Pet Portfolio</h1>
+                <p class="lead">Come find the next addition to your family...</p>
+            </div>
+        </div>
 
+            <div class="container">
+                <div class="row" style="text-align:center">
+                    <div class="col">
+                        <a class="btn btn-secondary" asp-action="Index" asp-controller="Animals">Animals</a>
+                    </div>
+                    @*<div class="col">
+                        <a  class="btn btn-secondary" asp-action="Index" asp-controller="Employees">Employees</a>
+                    </div>
+                    <div class="col">
+                        <a  class="btn btn-secondary" asp-action="Index" asp-controller="Volunteers">Volunteers</a>
+                    </div>
+                    <div class="col">
+                        <a  class="btn btn-secondary" asp-action="PetInfo" asp-controller="Animals">Test Page</a>
+                    </div>*@
+                </div>
+            </div>
+    </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -18,6 +45,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

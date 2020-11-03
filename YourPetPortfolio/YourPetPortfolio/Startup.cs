@@ -27,7 +27,7 @@ namespace YourPetPortfolio
         {
             services.AddControllersWithViews();
             services.AddDbContext<AnimalRescueContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("BAConnections")));
+            options.UseSqlServer(Configuration.GetConnectionString("BAConnectionsLocal")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

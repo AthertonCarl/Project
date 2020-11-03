@@ -24,22 +24,20 @@ namespace YourPetPortfolio.Controllers
             return View(await _context.Animals.ToListAsync());
         }
 
-        // GET: Animals/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult PetInfo()
         {
+            return View();
+        }
+
+        // GET: Animals/Details/5
+        public IActionResult Details(int? id)
+        {
+            var animal = _context.Animals.FirstOrDefault(c => c.AnimalId == id);
             if (id == null)
             {
                 return NotFound();
             }
-
-            var animals = await _context.Animals
-                .FirstOrDefaultAsync(m => m.AnimalId == id);
-            if (animals == null)
-            {
-                return NotFound();
-            }
-
-            return View(animals);
+            return View(animal);
         }
 
         // GET: Animals/Create

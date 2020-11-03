@@ -1,65 +1,122 @@
 ﻿@model IEnumerable<YourPetPortfolio.Models.Animals>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Available Animals";
 }
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
 
-<h1>Index</h1>
+<h1>Available Animals</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+
+<div class="container">
+    <div class="row">
+        @foreach (var i in Model)
+        {
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/img/randomdog.jpg" class="card-img-top img-fluid" alt="Animal Image">
+                    <div class="card-body">
+                        <h3 class="card-title">@i.AnimalName</h3>
+                        <div class="card-text">
+                            <p>
+                                <a class="font-weight-bold pr-md-1 ">Age:</a> <a class="font-weight-normal pr-3 pr-md-4 pr-xlg-5">@i.AnimalAge</a>
+                                <a class="font-weight-bold pr-md-1">Breed:</a> <a class="font-weight-normal">@i.AnimalBreed</a>
+                            </p>
+                        </div>
+                        <div class="position-sticky">
+                            <a href="#" class="btn btn-secondary">Adoption Form</a>
+                            <a href="Animals/Details/@i.AnimalId" class="btn btn-secondary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        }
+    </div>
+
+
+
+        
+</div> 
+
+
+
+
+@*<div class="card">
+        <img src="/img/randomdog.jpg" class="card-img-top img-fluid" alt="Animal Image">
+        <div class="card-body">
+            <h4 class="card-title">@i.AnimalName</h4>
+            <p class="card-text">Age: @i.AnimalAge Breed: @i.AnimalBreed</p>
+            <a href="#" class="btn btn-secondary">Adoption Form</a>
+            <a href="Animals/Details/@i.AnimalId" class="btn btn-secondary">Details</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="/img/randomdog.jpg" class="card-img-top img-fluid" alt="Animal Image">
+        <div class="card-body">
+            <h4 class="card-title">@i.AnimalName</h4>
+            <p class="card-text">Age: @i.AnimalAge Breed: @i.AnimalBreed</p>
+            <a href="#" class="btn btn-secondary">Adoption Form</a>
+            <a href="Animals/Details/@i.AnimalId" class="btn btn-secondary">Details</a>
+        </div>
+    </div>*@
+@*<div class="d-flex justify-content-md-around" style="background-color:lightgrey">*@
+@*<div class="col-3" style="justify-content:center; background-color:white">
+        <a type="button" asp-action="Details" asp-controller="Animals" asp-route-id="@i.AnimalId">
+            <img class="card-img" src="~/img/randomdog.jpg" alt="Animal Image" style="vertical-align:middle" />
+        </a>
+    </div>*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<table class="col-9" style="text-align:left; border:medium">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalAge)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalGender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalBreed)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalTemporment)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalDescription)
-            </th>
-            <th></th>
+            <td width="20%">Name: @i.AnimalName</td>
+            <td width="20%">Age: @i.AnimalAge</td>
+            <td width="20%">Breed:  @i.AnimalBreed</td>
         </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalAge)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalGender)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalBreed)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalTemporment)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalDescription)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.AnimalId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.AnimalId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.AnimalId">Delete</a>
-            </td>
+            <td>Temperment:  @i.AnimalTemporment</td>
         </tr>
+    </table>*@
+
+<br />
+@*<button type="button" data-toggle="modal" data-target="#model-@(i.AnimalId)">Model test</button>
+    <div id="modal-@(i.AnimalId)" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Details</h2>
+                    <button type="button" class="close" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                    <h4>@i.AnimalDescription</h4>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+            }
+
+
+
+@section Scripts{
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 }
-    </tbody>
-</table>
